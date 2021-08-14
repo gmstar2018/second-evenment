@@ -1,0 +1,21 @@
+.new_promote{
+	width: 1226px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	
+}
+.new_promote .promote{
+	width: 250px;
+	height: 170px;
+}
+.new_promote .promote a{
+	height: 170px;
+	display: block;
+}
+.new_promote .promote a img{
+	width: 250px;
+	height: 170px;
+}
+

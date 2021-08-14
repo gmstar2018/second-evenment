@@ -1,0 +1,40 @@
+.new_promote1{
+	width: 1226px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	height: 250px;
+	
+}
+.new_promote1 .promote{
+	width: 250px;
+	height: 250px;
+}
+.new_promote1 .promote a{
+	/*height: 170px;*/
+	display: block;
+}
+.new_promote1 .promote a img{
+	width: 250px;
+	height: 170px;
+}
+.div1{
+	position: relative;
+	height: 60px;
+
+}
+.div1 ul{
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}			
+.div1 li {
+	width: 24px;
+	height: 19px;
+	background-image:url(../img/start.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	float: left;
+	list-style: none;
+}

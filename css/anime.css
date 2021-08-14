@@ -1,0 +1,53 @@
+.anime{
+	margin-top: 20px;
+	min-width: 1226px;
+	height: 460px;
+	background: #f5f5f5;
+}
+.anime .anime_box{
+	min-width: 1226px;
+	display: flex;/*弹性布局*/
+	justify-content: space-between;/*两端对齐，项目之间的间隔都相等*/
+	margin: 0 auto;
+}
+.anime .anime_box .anime-cont{
+	width: 1226px;
+	margin: 0 auto;
+	height: 340px;
+}
+.anime  .anime_box .anime-cont ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.anime  .anime_box .anime-cont ul li{
+
+}
+.anime  .anime_box .anime-cont ul li a{
+	display: block;
+	width: 234px;
+	height: 340px;
+	background: white;
+}
+.anime  .anime_box .anime-cont ul li a img{
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+}
+.anime .anime_box .anime-cont .content{
+	text-align: center;
+}
+.anime .anime_box .anime-cont .content h3{
+	color: #212121;
+	font-size: 14px;
+	font-weight: 400;
+	height: 21px;
+	line-height: 21px;
+}
+.anime .anime_box .anime-cont .content p:nth-child(3){
+	color: #404040;
+	font-size: 12px;
+	margin-top: 10px;
+}
+

@@ -1,0 +1,49 @@
+* {
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+.head{
+	width: 100%;
+	height: 50px;
+}
+.head ul {
+    /*list-style-type: none;*/
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;/*相对窗口*/
+    top: 0;
+    width: 100%;
+    z-index: 11;
+
+}
+.head ul li {
+    float: left;
+}
+
+ .head ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    /*text-decoration: none;*/
+}
+
+.head ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #0077AA;
+}
+.head ul li:nth-child(3){
+	float: right;
+}
+.head ul li:nth-child(4){
+	float: right;
+}
+
