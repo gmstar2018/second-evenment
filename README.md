@@ -1,4 +1,4 @@
 # anime station
-this is my first repository
-I will continue to improve it until it becomes a real anime site!
-I hope some engineer technology can help me improve it
+this is my first repository</br>
+I will continue to improve it until it becomes a real anime site!</br>
+I hope some engineer technology can help me improve it</br>
